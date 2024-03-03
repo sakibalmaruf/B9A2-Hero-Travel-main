@@ -1,0 +1,190 @@
+                                           /* Mobile Responsive only */
+
+@media screen and (max-width: 667px) {
+
+                                            /*   navbar styles responsive */
+             .navbar {
+                display: none;
+            }
+            #menu-bar{
+                        display:contents;}
+        
+                                              /*  banner styles responsive  */
+            .banner-section {
+                height: 500px;
+            }
+        
+            .banner-section-heading {
+                font-size: 22px;
+                font-weight: 800;
+                margin-bottom: 10px;
+                margin-top: 35px;
+            }
+        
+            .banner-section-des {
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+        
+            .banner-section-form {
+                display: flex;
+                width: 287px;
+                padding: 16px;
+                flex-direction: column;
+                /* align-items: flex-start; */
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+                margin-top: 0px;
+            }
+        
+            .banner-section-form>input,
+            select,
+            button {
+                width: 255px;
+                height: 52px;
+            }
+            .popular-tours{
+                        flex-direction: column;
+            }
+            .primary-btn{
+                       padding: 0 auto;
+            }
+            .popular-tours-right{
+                        width: 100%;
+                        margin-top: 25px;
+            }
+
+        
+        
+
+                                             /*  destination styles responsive  */
+    .destination-grid-row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .destination-option>h1 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+    }
+
+    .destination-option>p {
+        font-size: 14px;
+    }
+
+    .srilanka {
+        width: auto;
+    }
+
+    .north-america {
+        width: auto;
+    }
+
+    .kashmir {
+        width: auto;
+    }
+
+    .bangladesh {
+        width: auto;
+    }
+
+    .bandarban {
+        width: auto;
+    }
+
+
+
+
+
+
+
+
+
+                                           /*  why choose responsive  */
+     .choose-box {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .choose-boxes-row1 {
+        flex-direction: column;
+    }
+
+    .choose-boxes-row1>div {
+        margin: 20px 0px;
+    }
+
+    .choose-text>h1 {
+        font-size: 20px;
+    }
+
+    .choose-text>p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+
+                                             /*  newsletter responsive */
+
+ .newsletter {
+    flex-direction: column;
+    height: auto;
+}
+
+.newsletter-form {
+    width: 100%;
+}
+
+.newsletter-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.newsletter-image button {
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+}
+
+                                                  /*  footer Section  */
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section hr {
+    width: 100%;
+}
+
+                                                   /* top travel stories section  */
+
+.top-travel-stories-cards {
+    flex-direction: column;
+    align-items: center;
+}
+.top-travel-stories-text>h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.top-travel-stories-text>p {
+    font-size: 14px;
+}
+.top-travel-stories>div>button {
+    width: 255px;
+    height: 52px;
+}
+
+}
+
+    /* Ei Assaignment korte giye matha sesh vai.Tai mid device er responsive kora hoy ni. Thank you */
+
+
